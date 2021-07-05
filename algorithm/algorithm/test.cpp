@@ -1,8 +1,9 @@
-#include <iostream>
-using namespace std;
-int main(void) {
-    cout << "\\    /\\" << endl;
-    cout << " )  ( ')" << endl;
-    cout << "(  /  )" << endl;
-    cout << " \\(__)|";
+#include <stdio.h>
+
+int main() {
+	printf("|\\_/|\n");
+	printf("|q p|   /}\n");
+	printf("( 0 )\"\"\"\\\n");
+	printf("|\"^\"`    |");
+	printf("||_/=\\__|");
 }

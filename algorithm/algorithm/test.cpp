@@ -1,17 +1,18 @@
-#include <stdio.h>
+#include<iostream>
+#include<string>
+using namespace std;
 
 int main() {
-    double a;
-    double b;
+    int A;
+    string B;
 
-    scanf("%lf %lf", &a, &b);	// double 입력은 %lf 
+    cin >> A;
+    cin >> B;
 
-    /*
-     기본적으로 lf 출력은 소수점 6자리까지 출력한다.
-     그렇기 때문에 소수점 자리수를 늘려주어야 한다.
-     오차범위가 10^-9 이하여야 하므로 여유있게 %.10lf 이상으로 해주자.
-    */
-    printf("%.13lf", a / b);	// 유효숫자가 13개 
+    cout << A * (B[2] - '0') << "\n";
+    cout << A * (B[1] - '0') << "\n";
+    cout << A * (B[0] - '0') << "\n";
+    cout << A * stoi(B) << "\n";
 
-    return 0;
+
 }

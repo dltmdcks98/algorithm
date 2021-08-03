@@ -1,9 +1,7 @@
-#include <stdio.h>
-
+#include <iostream>
+using namespace std;
 int main() {
-	printf("|\\_/|\n");
-	printf("|q p|   /}\n");
-	printf("( 0 )\"\"\"\\\n");
-	printf("|\"^\"`    |");
-	printf("||_/=\\__|");
+    float num1, num2;
+    cin >> num1 >> num2;
+    cout << num1 / num2 << endl;
 }

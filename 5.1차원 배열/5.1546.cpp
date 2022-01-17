@@ -16,7 +16,6 @@ int main() {
 	result = (result / max * 100) / n;
 
 	cout << fixed;
-
 	cout.precision(6);//소숫점 6째 자리까지 출력
 	cout << result << endl;
 }
